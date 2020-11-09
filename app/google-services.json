@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "150105160964",
+    "firebase_url": "https://a-baker-drop.firebaseio.com",
+    "project_id": "a-baker-drop",
+    "storage_bucket": "a-baker-drop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150105160964:android:28f2440d54f6cea6ada451",
+        "android_client_info": {
+          "package_name": "com.example.android.bakery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150105160964-htile8s0v7vsvhep3id7tndaj3gcqtgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWiMBGabHdYOmAtYRZ7IVGFIc-jOhrUjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150105160964-htile8s0v7vsvhep3id7tndaj3gcqtgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+
+  ],
+  "configuration_version": "1"
+}

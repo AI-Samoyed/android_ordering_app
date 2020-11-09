@@ -1,0 +1,223 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2018 Google Inc.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.bakery"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml
+24        android:targetSdkVersion="29" />
+24-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml
+25
+26    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+27    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.firebase:firebase-storage:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/c7fc17e1e32ad03dc7f5ffdd51901eb8/firebase-storage-19.2.0/AndroidManifest.xml:26:5-79
+28-->[com.google.firebase:firebase-storage:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/c7fc17e1e32ad03dc7f5ffdd51901eb8/firebase-storage-19.2.0/AndroidManifest.xml:26:22-76
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->[com.google.firebase:firebase-storage:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/c7fc17e1e32ad03dc7f5ffdd51901eb8/firebase-storage-19.2.0/AndroidManifest.xml:27:5-67
+29-->[com.google.firebase:firebase-storage:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/c7fc17e1e32ad03dc7f5ffdd51901eb8/firebase-storage-19.2.0/AndroidManifest.xml:27:22-64
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/1e88a126654a3ff3bf83521b7c6a15dc/play-services-measurement-api-18.0.0/AndroidManifest.xml:24:5-68
+30-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/1e88a126654a3ff3bf83521b7c6a15dc/play-services-measurement-api-18.0.0/AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:26:22-107
+32
+33    <application
+33-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:20:5-53:19
+34        android:allowBackup="true"
+34-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:21:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/e8ace931b4fe4abe0d5f1025f548874f/core-1.0.0/AndroidManifest.xml:22:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:22:9-43
+38        android:label="@string/app_name"
+38-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:23:9-41
+39        android:roundIcon="@mipmap/ic_launcher_round"
+39-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:24:9-54
+40        android:supportsRtl="true"
+40-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:25:9-35
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme" >
+42-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:26:9-40
+43        <activity
+43-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:27:9-36:20
+44            android:name="com.example.android.bakery.MainActivity"
+44-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:28:13-67
+45            android:label="@string/app_name"
+45-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:29:13-45
+46            android:theme="@style/AppTheme.NoActionBar" >
+46-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:30:13-56
+47            <intent-filter>
+47-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:31:13-35:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:32:17-69
+48-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:32:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:34:17-77
+50-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:34:27-74
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:37:9-44:20
+54            android:name="com.example.android.bakery.OrderActivity"
+54-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:38:13-68
+55            android:label="@string/title_activity_order"
+55-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:39:13-57
+56            android:parentActivityName="com.example.android.bakery.MainActivity" >
+56-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:40:13-81
+57            <meta-data
+57-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:41:13-43:75
+58                android:name="android.support.PARENT_ACTIVITY"
+58-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:42:17-63
+59                android:value="com.example.android.bakery.MainActivity" />
+59-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:43:17-72
+60        </activity>
+61        <activity
+61-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:45:9-52:20
+62            android:name="com.example.android.bakery.SettingsActivity"
+62-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:46:13-71
+63            android:label="@string/title_activity_settings"
+63-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:47:13-60
+64            android:parentActivityName="com.example.android.bakery.MainActivity" >
+64-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:48:13-81
+65            <meta-data
+65-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:41:13-43:75
+66                android:name="android.support.PARENT_ACTIVITY"
+66-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:42:17-63
+67                android:value="com.example.android.bakery.MainActivity" />
+67-->/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/src/main/AndroidManifest.xml:43:17-72
+68        </activity>
+69
+70        <meta-data
+70-->[com.android.support:design:26.1.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/2f7a10556be9a134f2fe665ddfaf446f/design-26.1.0/AndroidManifest.xml:26:9-28:38
+71            android:name="android.support.VERSION"
+71-->[com.android.support:design:26.1.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/2f7a10556be9a134f2fe665ddfaf446f/design-26.1.0/AndroidManifest.xml:27:13-51
+72            android:value="26.1.0" />
+72-->[com.android.support:design:26.1.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/2f7a10556be9a134f2fe665ddfaf446f/design-26.1.0/AndroidManifest.xml:28:13-35
+73
+74        <service
+74-->[com.google.firebase:firebase-storage-ktx:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/9655b2f12f0f3e46aadd96147be413a2/firebase-storage-ktx-19.2.0/AndroidManifest.xml:12:9-18:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[com.google.firebase:firebase-storage-ktx:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/9655b2f12f0f3e46aadd96147be413a2/firebase-storage-ktx-19.2.0/AndroidManifest.xml:13:13-84
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-storage-ktx:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/9655b2f12f0f3e46aadd96147be413a2/firebase-storage-ktx-19.2.0/AndroidManifest.xml:14:13-37
+78            <meta-data
+78-->[com.google.firebase:firebase-storage-ktx:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/9655b2f12f0f3e46aadd96147be413a2/firebase-storage-ktx-19.2.0/AndroidManifest.xml:15:13-17:85
+79                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
+79-->[com.google.firebase:firebase-storage-ktx:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/9655b2f12f0f3e46aadd96147be413a2/firebase-storage-ktx-19.2.0/AndroidManifest.xml:16:17-122
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-storage-ktx:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/9655b2f12f0f3e46aadd96147be413a2/firebase-storage-ktx-19.2.0/AndroidManifest.xml:17:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-common-ktx:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/496ac6390fcb225b9c37c4c43df216ec/firebase-common-ktx-19.3.1/AndroidManifest.xml:15:13-17:85
+82                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+82-->[com.google.firebase:firebase-common-ktx:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/496ac6390fcb225b9c37c4c43df216ec/firebase-common-ktx-19.3.1/AndroidManifest.xml:16:17-113
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-common-ktx:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/496ac6390fcb225b9c37c4c43df216ec/firebase-common-ktx-19.3.1/AndroidManifest.xml:17:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-storage:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/c7fc17e1e32ad03dc7f5ffdd51901eb8/firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+85                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+85-->[com.google.firebase:firebase-storage:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/c7fc17e1e32ad03dc7f5ffdd51901eb8/firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-storage:19.2.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/c7fc17e1e32ad03dc7f5ffdd51901eb8/firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+87            <meta-data
+87-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/1e88a126654a3ff3bf83521b7c6a15dc/play-services-measurement-api-18.0.0/AndroidManifest.xml:30:13-32:85
+88                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+88-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/1e88a126654a3ff3bf83521b7c6a15dc/play-services-measurement-api-18.0.0/AndroidManifest.xml:31:17-139
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.android.gms:play-services-measurement-api:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/1e88a126654a3ff3bf83521b7c6a15dc/play-services-measurement-api-18.0.0/AndroidManifest.xml:32:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-installations:16.3.3] /Users/angela/.gradle/caches/transforms-2/files-2.1/d1ee3c7d353df9e158a467fd890bf001/firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+91                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+91-->[com.google.firebase:firebase-installations:16.3.3] /Users/angela/.gradle/caches/transforms-2/files-2.1/d1ee3c7d353df9e158a467fd890bf001/firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-installations:16.3.3] /Users/angela/.gradle/caches/transforms-2/files-2.1/d1ee3c7d353df9e158a467fd890bf001/firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+93        </service>
+94
+95        <provider
+95-->[com.google.firebase:firebase-common:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+96            android:name="com.google.firebase.provider.FirebaseInitProvider"
+96-->[com.google.firebase:firebase-common:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+97            android:authorities="com.example.android.bakery.firebaseinitprovider"
+97-->[com.google.firebase:firebase-common:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+99            android:exported="false"
+99-->[com.google.firebase:firebase-common:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+100            android:initOrder="100" />
+100-->[com.google.firebase:firebase-common:19.3.1] /Users/angela/.gradle/caches/transforms-2/files-2.1/b0490454e848f18b90eb9fd352d0729e/firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+101
+102        <receiver
+102-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:29:9-33:20
+103            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+103-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:30:13-85
+104            android:enabled="true"
+104-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:31:13-35
+105            android:exported="false" >
+105-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:32:13-37
+106        </receiver>
+107
+108        <service
+108-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:35:9-38:40
+109            android:name="com.google.android.gms.measurement.AppMeasurementService"
+109-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:36:13-84
+110            android:enabled="true"
+110-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:37:13-35
+111            android:exported="false" />
+111-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:38:13-37
+112        <service
+112-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:39:9-43:72
+113            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+113-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:40:13-87
+114            android:enabled="true"
+114-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:41:13-35
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:42:13-37
+116            android:permission="android.permission.BIND_JOB_SERVICE" />
+116-->[com.google.android.gms:play-services-measurement:18.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/cee2b7a0fb5433b88e2f4d0eb20b7a7d/play-services-measurement-18.0.0/AndroidManifest.xml:43:13-69
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:17.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:17.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:17.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:17.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:17.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:17.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:17.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+126        <meta-data
+126-->[android.arch.lifecycle:runtime:1.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/ad74aed606fa0b23eab78a4d48323b44/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+127            android:name="android.arch.lifecycle.VERSION"
+127-->[android.arch.lifecycle:runtime:1.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/ad74aed606fa0b23eab78a4d48323b44/runtime-1.0.0/AndroidManifest.xml:26:13-58
+128            android:value="27.0.0-SNAPSHOT" />
+128-->[android.arch.lifecycle:runtime:1.0.0] /Users/angela/.gradle/caches/transforms-2/files-2.1/ad74aed606fa0b23eab78a4d48323b44/runtime-1.0.0/AndroidManifest.xml:27:13-44
+129    </application>
+130
+131</manifest>
