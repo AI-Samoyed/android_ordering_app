@@ -23,11 +23,9 @@ import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
-import com.google.firebase.analytics.FirebaseAnalytics;
 
 /**
  * This app demonstrates images used as buttons and a floating action button for
@@ -42,6 +40,7 @@ import com.google.firebase.analytics.FirebaseAnalytics;
  * On start, the app shows a Toast showing the value of the Market setting.
  */
 public class MainActivity extends AppCompatActivity {
+
 
     // Tag for the intent extra.
     public static final String EXTRA_MESSAGE =
@@ -59,6 +58,11 @@ public class MainActivity extends AppCompatActivity {
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //FirebaseFirestore firebaseFirestore = FirebaseFirestore.getInstance();
+
+        //Query
+        //Query query = firebaseFirestore.collection(Items.)
+        //
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
@@ -101,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
      * @return Returns true if the menu inflated.
      */
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(android.view.Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
