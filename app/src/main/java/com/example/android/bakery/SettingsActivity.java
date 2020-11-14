@@ -30,8 +30,8 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
-import android.support.v4.app.NavUtils;
-import android.support.v7.app.ActionBar;
+import androidx.core.app.NavUtils;
+import androidx.appcompat.app.ActionBar;
 import android.text.TextUtils;
 import android.view.MenuItem;
 

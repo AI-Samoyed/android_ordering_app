@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,7 +22,7 @@ public class Register extends AppCompatActivity {
     EditText mFullName, mEmail, mPassword, mPhone;
     Button mbtnRegister;
     FirebaseAuth fAuth;
-
+    ProgressBar progressBar ;
 
 
     @Override
@@ -35,6 +36,12 @@ public class Register extends AppCompatActivity {
         mPhone = findViewById(R.id.phone) ;
         mbtnRegister = findViewById(R.id.btnRegister) ;
         fAuth = FirebaseAuth.getInstance();
+        progressBar = findViewById(R.id.loading);
+        //User already has an account:
+        if(fAuth.getCurrentUser() != null) {
+            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            finish();
+        }
 
         //Handle the event-click register button:
         mbtnRegister.setOnClickListener(new View.OnClickListener() {
@@ -50,6 +57,8 @@ public class Register extends AppCompatActivity {
                     mPassword.setError("Password is required") ;
                     return ;
                 }
+
+                progressBar.setVisibility(view.VISIBLE);
                 //register User with firebase:
 
                 fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -67,4 +76,5 @@ public class Register extends AppCompatActivity {
 
             }
         });
-};
+}
+}

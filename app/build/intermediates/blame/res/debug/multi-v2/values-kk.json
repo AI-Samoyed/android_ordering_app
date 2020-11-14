@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/angela/Desktop/CPS731_Android/final /ordering_app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
+            "outputFile": "/Users/angela/Desktop/CPS731_Android/final/ordering_app/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "/Users/angela/.gradle/caches/transforms-2/files-2.1/9be9080bf55c5cd555c47162821f6695/play-services-basement-17.0.0/res/values-kk/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "222",
-                        "endOffsets": "469"
-                    },
-                    "to": {
-                        "startLines": "29",
-                        "startColumns": "4",
-                        "startOffsets": "3193",
-                        "endColumns": "222",
-                        "endOffsets": "3411"
-                    }
-                },
-                {
-                    "source": "/Users/angela/.gradle/caches/transforms-2/files-2.1/a1a5529653c871ab4a55a56eae436bb3/play-services-base-17.0.0/res/values-kk/values.xml",
+                    "source": "/Users/angela/.gradle/caches/transforms-2/files-2.1/18b63455f7cdf2e55499d904fd0b4a4d/play-services-base-17.1.0/res/values-kk/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -30,11 +13,45 @@
                         "endOffsets": "345,530,654,758,957,1081,1230,1364,1588,1692,1880,2007,2219,2402,2491,2576,2679"
                     },
                     "to": {
-                        "startLines": "21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,38",
+                        "startLines": "31,32,33,34,35,36,37,38,40,41,42,43,44,45,46,47,48",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2049,2154,2339,2467,2575,2774,2902,3055,3416,3640,3748,3936,4067,4279,4466,4559,4648",
+                        "startOffsets": "2989,3094,3279,3407,3515,3714,3842,3995,4356,4580,4688,4876,5007,5219,5406,5499,5588",
                         "endColumns": "104,184,127,107,198,127,152,137,223,107,187,130,211,186,92,88,106",
-                        "endOffsets": "2149,2334,2462,2570,2769,2897,3050,3188,3635,3743,3931,4062,4274,4461,4554,4643,4750"
+                        "endOffsets": "3089,3274,3402,3510,3709,3837,3990,4128,4575,4683,4871,5002,5214,5401,5494,5583,5690"
+                    }
+                },
+                {
+                    "source": "/Users/angela/.gradle/caches/transforms-2/files-2.1/2a38911dfcd618f6f10b3261ee4a7ed5/play-services-basement-17.1.0/res/values-kk/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "222",
+                        "endOffsets": "469"
+                    },
+                    "to": {
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "4133",
+                        "endColumns": "222",
+                        "endOffsets": "4351"
+                    }
+                },
+                {
+                    "source": "/Users/angela/.gradle/caches/transforms-2/files-2.1/85617a0bd0c144064dce7eaf3664b2d0/appcompat-1.2.0/res/values-kk/values-kk.xml",
+                    "from": {
+                        "startLines": "10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "895,986,1079,1174,1268,1368,1461,1556,1653,1744",
+                        "endColumns": "90,92,94,93,99,92,94,96,90,90",
+                        "endOffsets": "981,1074,1169,1263,1363,1456,1551,1648,1739,1830"
+                    },
+                    "to": {
+                        "startLines": "12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1132,1223,1316,1411,1505,1605,1698,1793,1890,1981",
+                        "endColumns": "90,92,94,93,99,92,94,96,90,90",
+                        "endOffsets": "1218,1311,1406,1500,1600,1693,1788,1885,1976,2067"
                     }
                 },
                 {
@@ -47,11 +64,11 @@
                         "endOffsets": "162,270,393,496,606,691,797,916,997,1077,1158,1261,1366,1464,1571,1680,1780,1895,1994,2075,2176"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,39,40",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,22,23,24,25,26,27,28,29,30,49,50",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,217,325,448,551,661,746,852,971,1052,1132,1213,1316,1421,1519,1626,1735,1835,1950,4755,4836",
+                        "startOffsets": "105,217,325,448,551,661,746,852,971,1052,2072,2153,2256,2361,2459,2566,2675,2775,2890,5695,5776",
                         "endColumns": "111,107,122,102,109,84,105,118,80,79,80,102,104,97,106,108,99,114,98,80,100",
-                        "endOffsets": "212,320,443,546,656,741,847,966,1047,1127,1208,1311,1416,1514,1621,1730,1830,1945,2044,4831,4932"
+                        "endOffsets": "212,320,443,546,656,741,847,966,1047,1127,2148,2251,2356,2454,2561,2670,2770,2885,2984,5771,5872"
                     }
                 }
             ]

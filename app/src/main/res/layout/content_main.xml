@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -41,7 +41,6 @@
         android:id="@+id/donut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:contentDescription="@string/donuts"
@@ -54,7 +53,6 @@
         android:id="@+id/ice_cream"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:contentDescription="@string/ice_cream_sandwiches"
@@ -67,7 +65,6 @@
         android:id="@+id/froyo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:contentDescription="@string/froyo"
@@ -112,4 +109,4 @@
         app:layout_constraintStart_toEndOf="@+id/froyo"
         app:layout_constraintTop_toTopOf="@+id/froyo" />
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
