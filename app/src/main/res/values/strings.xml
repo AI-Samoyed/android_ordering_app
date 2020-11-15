@@ -118,5 +118,10 @@
     <string name="phone_numb">phone_number</string>
     <string name="register">Register</string>
     <string name="already_have_an_account_login_here">Already have an account! Login Here</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login">Login</string>
+    <string name="login2">LOGIN</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account! Register here.</string>
+    <string name="todo">TODO</string>
 
 </resources>

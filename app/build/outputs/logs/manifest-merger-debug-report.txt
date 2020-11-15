@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\75481e4f325e3678b01ca7833508255c\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\3701e9653f876850c07414763fb9f811\constraintlayout-2.0.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\162eae9e3b95502533b1d58f9f927687\material-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -72,20 +72,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vince\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\1e3dec554e122611f1853e4214e27b1f\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\3c410805b211f565ddf8d6b49f7dd616\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\47a9b793fb482438f4facbefe890c2a3\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:11-69
@@ -112,7 +112,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:
 	android:name
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:5:5-51:19
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:5:5-43:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\3701e9653f876850c07414763fb9f811\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\3701e9653f876850c07414763fb9f811\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\162eae9e3b95502533b1d58f9f927687\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -197,42 +197,38 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:18:27-74
-activity#com.example.android.bakery.Login
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:21:9-22:46
-	android:name
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:22:13-34
 activity#com.example.android.bakery.MainActivity
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:23:9-33:20
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:21:9-25:20
 	android:label
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:25:13-42
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:23:13-42
 	android:name
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:22:13-41
 activity#com.example.android.bakery.OrderActivity
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:26:9-33:20
+	android:parentActivityName
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:29:13-55
+	android:label
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:28:13-57
+	android:name
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:27:13-42
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:30:13-32:75
+	android:value
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:32:17-72
+	android:name
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:31:17-63
+activity#com.example.android.bakery.SettingsActivity
 ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:34:9-41:20
 	android:parentActivityName
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:37:13-55
 	android:label
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:36:13-57
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:36:13-60
 	android:name
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:35:13-42
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:38:13-40:75
-	android:value
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:40:17-72
-	android:name
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:39:17-63
-activity#com.example.android.bakery.SettingsActivity
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:42:9-49:20
-	android:parentActivityName
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:45:13-55
-	android:label
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:44:13-60
-	android:name
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:43:13-45
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:35:13-45
 activity#com.example.android.bakery.AppCompatPreferenceActivity
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:50:9-65
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:42:9-65
 	android:name
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:50:19-62
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:42:19-62
 uses-sdk
 INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml

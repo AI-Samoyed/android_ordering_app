@@ -1342,7 +1342,7 @@ id beginning
 id blocking
 id bottom
 id bounce
-id btnRegister
+id btnCreate
 id buttonPanel
 id cache_measures
 id center
@@ -1361,7 +1361,6 @@ id content
 id contentPanel
 id coordinator
 id cos
-id create
 id custom
 id customPanel
 id dark
@@ -1450,7 +1449,7 @@ id linear
 id listMode
 id list_item
 id loading
-id loginText
+id loginTxt
 id masked
 id message
 id middle
@@ -1497,6 +1496,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerHere
 id reverseSawtooth
 id right
 id right_icon
@@ -1656,6 +1656,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout activity_order
 layout activity_register
@@ -1751,6 +1752,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string create_your_account
 string default_web_client_id
+string don_t_have_an_account_register_here
 string donut_order_message
 string donuts
 string email
@@ -1773,6 +1775,8 @@ string hide_bottom_view_on_scroll_behavior
 string ice_cream_order_message
 string ice_cream_sandwiches
 string intro_text
+string login
+string login2
 string mtrl_chip_close_icon_content_description
 string name
 string name_label_text
@@ -1787,6 +1791,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string phone_label_string
 string phone_numb
+string phone_number
 string pick_up
 string pref_default_display_name
 string pref_description_social_recommendations
@@ -1810,6 +1815,7 @@ string settings
 string status_bar_notification_info_overflow
 string title_activity_order
 string title_activity_settings
+string todo
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

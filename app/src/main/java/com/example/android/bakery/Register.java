@@ -1,6 +1,5 @@
 package com.example.android.bakery;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -13,18 +12,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 public class Register extends AppCompatActivity {
     EditText mFullName, mEmail, mPassword, mPhone;
     Button mbtnRegister;
     FirebaseAuth fAuth;
     ProgressBar progressBar ;
+    TextView mLoginBtn;
 
 
     @Override
@@ -36,7 +31,7 @@ public class Register extends AppCompatActivity {
         mEmail = findViewById(R.id.email) ;
         mPassword = findViewById(R.id.password) ;
         mPhone = findViewById(R.id.phone) ;
-        mbtnRegister = findViewById(R.id.btnRegister) ;
+        mbtnRegister = findViewById(R.id.btnCreate) ;
         fAuth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.loading);
         //User already has an account:
@@ -60,23 +55,33 @@ public class Register extends AppCompatActivity {
                     return ;
                 }
 
-                progressBar.setVisibility(view.VISIBLE);
+                progressBar.setVisibility(View.VISIBLE);
+                //check if user account existed
+                if (fAuth.getCurrentUser() != null){
+                    startActivity((new Intent(getApplicationContext(),MainActivity.class)));
+                    finish();
+                }
                 //register User with firebase:
 
-                fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if (task.isSuccessful()) {
-                            Toast.makeText(Register.this, "User Created!!", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                        }
-                        else {
-                            Toast.makeText(Register.this, "Error occurred!!", Toast.LENGTH_SHORT).show();
-                        }
+                fAuth.createUserWithEmailAndPassword(email,password).addOnCompleteListener((task) -> {
+                    if (task.isSuccessful()) {
+                        Toast.makeText(Register.this, "User Created!!", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     }
-                });
+                    else {
+                        Toast.makeText(Register.this, "Error occurred!!", Toast.LENGTH_SHORT).show();
+                        progressBar.setVisibility(View.GONE);
+                    }
+                    }
+                );
 
             }
         });
-}
+        mLoginBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),Login.class));
+            }
+        });
+    }
 }
