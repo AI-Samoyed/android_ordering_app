@@ -129,4 +129,7 @@
     <string name="logout">LOGOUT</string>
     <string name="your_profile">Your Profile</string>
 
+    <string name="checkbox">Remeber my login information</string>
+    <string name="remember_my_login_information">Remember my login information</string>
+
 </resources>

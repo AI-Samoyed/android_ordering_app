@@ -2,10 +2,13 @@ package com.example.android.bakery;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -27,6 +30,9 @@ public class Login extends AppCompatActivity {
     FirebaseAuth fAuth;
     TextView mRegisterBtn;
     ProgressBar progressBar ;
+    CheckBox mcheckBox;
+    SharedPreferences sp;
+    SharedPreferences.Editor mEditor;
     @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -39,6 +45,13 @@ public class Login extends AppCompatActivity {
         progressBar = findViewById(R.id.loading) ;
         mRegisterBtn = findViewById(R.id.loginHere);
         fAuth = FirebaseAuth.getInstance();
+        mcheckBox = findViewById(R.id.checkBox);
+        sp = getSharedPreferences("UserPrefs", MODE_PRIVATE);
+
+
+        //checkSharedPreferences();
+
+
 
         mLoginBtn.setOnClickListener(new View.OnClickListener(){
 
@@ -46,6 +59,8 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 String email = mEmail.getText().toString().trim();
                 String password = mPassword.getText().toString().trim();
+
+
                 if (TextUtils.isEmpty(email)){
                     mEmail.setError("Email is required") ;
                     return ;
@@ -55,7 +70,28 @@ public class Login extends AppCompatActivity {
                     return ;
                 }
 
+/*
+                if(mcheckBox.isChecked()){
+                    mEditor.putString(getString(R.string.checkbox),"True");
+                    mEditor.commit();
 
+                    mEditor.putString(getString(R.string.email),email);
+                    mEditor.commit();
+
+                    mEditor.putString(getString(R.string.password),password);
+                    mEditor.commit();
+                }
+                else{
+                    mEditor.putString(getString(R.string.checkbox),"False");
+                    mEditor.commit();
+
+                    mEditor.putString(getString(R.string.email),"");
+                    mEditor.commit();
+
+                    mEditor.putString(getString(R.string.password),"");
+                    mEditor.commit();
+                }
+*/
                 progressBar.setVisibility(View.VISIBLE);
 
                 //authenticate the users:
@@ -63,6 +99,13 @@ public class Login extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
+                            if (mcheckBox.isChecked()){
+                                SharedPreferences.Editor editor = sp.edit();
+                                editor.putString("Email", email);
+                                editor.putString("Password", password);
+                                editor.commit();
+                                Toast.makeText(Login.this, "Info saved", Toast.LENGTH_SHORT).show();
+                            }
                             Toast.makeText(Login.this, "Logged in Successfully!!", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(), Logout.class));
                         }
@@ -83,5 +126,20 @@ public class Login extends AppCompatActivity {
 
     }
 
+    /*Check the shared preferences and set them accordingly
+    private void checkSharedPreferences(){
+        String checkbox = sp.getString(getString(R.string.checkbox),"False");
+        String password = sp.getString(getString(R.string.password),"");
+        String email = sp.getString(getString(R.string.email),"");
+        mEmail.setText(email);
+        mPassword.setText(password);
+        if(checkbox.equals("True")){
+            mcheckBox.setChecked(true);
+        }
+        else {
+            mcheckBox.setChecked(false);
+        }
 
+    }
+    */
 }

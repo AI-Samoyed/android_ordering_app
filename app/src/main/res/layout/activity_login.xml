@@ -61,6 +61,18 @@
         app:layout_constraintVertical_bias="0.405" />
 
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="285dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="31dp"
+        android:text="@string/remember_my_login_information"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.0" />
+
     <Button
         android:id="@+id/btnLogout"
         android:layout_width="wrap_content"

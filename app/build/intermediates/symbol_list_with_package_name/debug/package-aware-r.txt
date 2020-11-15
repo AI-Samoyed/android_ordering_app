@@ -1348,6 +1348,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id checkBox
 id checkbox
 id checked
 id chronometer
@@ -1708,6 +1709,7 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
+string checkbox
 string choose_delivery_method
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
@@ -1787,6 +1789,7 @@ string pref_title_social_recommendations
 string pref_title_vibrate
 string project_id
 string register
+string remember_my_login_information
 string same_day_messenger_service
 string search_menu_title
 string settings
