@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="30" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,6 +17,7 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <application
+        android:name="androidx.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -24,9 +25,9 @@
         android:label="Bakery"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.android.bakery.ui.login" />
-            android:naem=".Register
+=
         <activity android:name="com.example.android.bakery.Register" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,15 +35,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.android.bakery.Login" />
         <activity
             android:name="com.example.android.bakery.MainActivity"
-            android:label="Main Activity"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="Main Activity" >
+            /*
+            android:theme="@style/AppTheme.NoActionBar">
+            //
             <intent-filter>
+               // 
                 <action android:name="android.intent.action.MAIN" />
-
+                //
                 <category android:name="android.intent.category.LAUNCHER" />
+            //
             </intent-filter>
+*/
         </activity>
         <activity
             android:name="com.example.android.bakery.OrderActivity"
@@ -60,10 +67,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.bakery.MainActivity" />
         </activity>
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
+        <activity android:name="com.example.android.bakery.AppCompatPreferenceActivity" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -76,16 +80,16 @@
                 android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageKtxRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
@@ -150,11 +154,6 @@
             </intent-filter>
         </service>
 
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
             android:authorities="com.example.android.bakery.firebaseinitprovider"
@@ -178,6 +177,11 @@
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
@@ -187,10 +191,6 @@
             android:authorities="com.example.android.bakery.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
-
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

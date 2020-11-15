@@ -1,4 +1,6 @@
 package com.example.android.bakery;
 
-public class Login {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Login extends AppCompatActivity {
 }

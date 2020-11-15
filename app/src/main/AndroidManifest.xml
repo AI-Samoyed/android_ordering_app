@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Login"></activity>
+=
 
         <activity android:name=".Register">
             <intent-filter>
@@ -20,14 +19,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".Login"></activity>
+        <activity
             android:name=".MainActivity"
-            android:label="Main Activity"
+            android:label="Main Activity">
+            /*
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            //<intent-filter>
+               // <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+                //<category android:name="android.intent.category.LAUNCHER" />
+            //</intent-filter>*/
         </activity>
         <activity
             android:name=".OrderActivity"
@@ -45,6 +47,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.bakery.MainActivity" />
         </activity>
+        <activity android:name=".AppCompatPreferenceActivity" />
     </application>
 
 </manifest>
