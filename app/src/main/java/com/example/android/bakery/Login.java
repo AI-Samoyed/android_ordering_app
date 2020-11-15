@@ -35,9 +35,9 @@ public class Login extends AppCompatActivity {
 
         mEmail = findViewById(R.id.email) ;
         mPassword = findViewById(R.id.password) ;
-        mLoginBtn = findViewById(R.id.btnCreate) ;
+        mLoginBtn = findViewById(R.id.btnLogout) ;
         progressBar = findViewById(R.id.loading) ;
-        mRegisterBtn = findViewById(R.id.registerHere);
+        mRegisterBtn = findViewById(R.id.loginHere);
         fAuth = FirebaseAuth.getInstance();
 
         mLoginBtn.setOnClickListener(new View.OnClickListener(){
@@ -64,7 +64,7 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             Toast.makeText(Login.this, "Logged in Successfully!!", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), Logout.class));
                         }
                         else {
                             Toast.makeText(Login.this, "Incorrect password or email", Toast.LENGTH_SHORT).show();
@@ -82,4 +82,6 @@ public class Login extends AppCompatActivity {
         });
 
     }
+
+
 }
