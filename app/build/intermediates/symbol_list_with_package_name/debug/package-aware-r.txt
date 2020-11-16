@@ -1225,6 +1225,7 @@ drawable ic_favorite
 drawable ic_info_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_map
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
@@ -1340,6 +1341,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btmNag
 id btnLogout
 id buttonPanel
 id cache_measures

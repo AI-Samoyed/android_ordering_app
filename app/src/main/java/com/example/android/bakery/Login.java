@@ -70,28 +70,6 @@ public class Login extends AppCompatActivity {
                     return ;
                 }
 
-/*
-                if(mcheckBox.isChecked()){
-                    mEditor.putString(getString(R.string.checkbox),"True");
-                    mEditor.commit();
-
-                    mEditor.putString(getString(R.string.email),email);
-                    mEditor.commit();
-
-                    mEditor.putString(getString(R.string.password),password);
-                    mEditor.commit();
-                }
-                else{
-                    mEditor.putString(getString(R.string.checkbox),"False");
-                    mEditor.commit();
-
-                    mEditor.putString(getString(R.string.email),"");
-                    mEditor.commit();
-
-                    mEditor.putString(getString(R.string.password),"");
-                    mEditor.commit();
-                }
-*/
                 progressBar.setVisibility(View.VISIBLE);
 
                 //authenticate the users:
@@ -100,6 +78,7 @@ public class Login extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             if (mcheckBox.isChecked()){
+
                                 SharedPreferences.Editor editor = sp.edit();
                                 editor.putString("Email", email);
                                 editor.putString("Password", password);
