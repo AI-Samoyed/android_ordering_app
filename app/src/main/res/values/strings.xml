@@ -17,26 +17,7 @@
 <resources>
     <string name="app_name">Bakery</string>
     <string name="intro_text">Desserts</string>
-    <string name="donuts">Donuts are glazed and sprinkled with candy.</string>
-    <string name="ice_cream_sandwiches">Ice cream sandwiches have chocolate
-        wafers and vanilla filling.</string>
-    <string name="froyo">FroYo is premium self-serve frozen yogurt.</string>
-    <string name="donut_order_message">You ordered a donut.</string>
-    <string name="ice_cream_order_message">You ordered an ice cream
-        sandwich.</string>
-    <string name="froyo_order_message">You ordered a FroYo.</string>
-    <string name="order_label_text">Order:</string>
-    <string name="note_label_text">Note:</string>
-    <string name="name_label_text">Name</string>
-    <string name="enter_name_hint">Enter your name</string>
-    <string name="address_label_text">Address</string>
-    <string name="enter_address_hint">Enter address</string>
-    <string name="phone_label_string">Phone</string>
-    <string name="enter_phone_hint">Enter phone</string>
-    <string name="enter_note_hint">Enter note</string>
-    <string name="choose_delivery_method">Choose a delivery method:</string>
-    <string name="same_day_messenger_service">Same day messenger
-        service</string>
+
     <string name="next_day_ground_delivery">Next day ground delivery</string>
     <string name="pick_up">Pick up</string>
     <string name="action_contact">Contact</string>
@@ -156,5 +137,13 @@
     <string name="phone_number4">Phone Number:</string>
     <string name="email4">Email:</string>
     <string name="save">SAVE</string>
+    <string name="image">image1</string>
+    <string name="menu">menu</string>
+    <string name="cart">cart</string>
+    <string name="orders">orders</string>
+    <string name="sign_out">sign_out</string>
+    <string name="open_nav">Open Navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
 </resources>

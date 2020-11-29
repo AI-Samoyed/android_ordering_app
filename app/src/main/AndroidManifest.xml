@@ -12,10 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".EditProfile"></activity>
-        <activity android:name=".Menu" />
         <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main" />
+            android:name=".Home"
+            android:label="Home Activity "
+            android:parentActivityName=".Login">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.bakery.Login" />
+        </activity>
         <activity
             android:name=".Register"
             android:label="@string/title_activity_register"
