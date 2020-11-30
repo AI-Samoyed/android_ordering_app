@@ -16,9 +16,9 @@
   -->
 
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#7f335539</color>
+    <color name="colorPrimaryDark">#779911</color>
+    <color name="colorAccent">#F26B83</color>
 
     <color name="overlayBackground">#7f335539</color>
     <color name="overlayActionBar">#0e2d5e</color>

@@ -1,6 +1,5 @@
 package com.example.android.bakery;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -8,7 +7,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -24,14 +22,13 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
-import com.google.firebase.ktx.Firebase;
 
 public class Logout extends AppCompatActivity {
     TextView fullName, email, phone;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     String userID;
-    Button changeProfile, resetPass;
+    Button changeProfile, resetPass, logOut;
     FirebaseUser user;
 
     @Override
@@ -45,7 +42,7 @@ public class Logout extends AppCompatActivity {
         fAuth = FirebaseAuth.getInstance();
         resetPass = findViewById(R.id.resetPass);
         changeProfile = findViewById(R.id.changeProfile);
-
+        logOut = findViewById(R.id.btnLogout);
         userID = fAuth.getCurrentUser().getUid();
         user = fAuth.getCurrentUser() ;
 
@@ -94,6 +91,11 @@ public class Logout extends AppCompatActivity {
             i.putExtra("fullName",fullName.getText().toString());
             i.putExtra("email",email.getText().toString());
             i.putExtra("phone",phone.getText().toString());
+            startActivity(i);
+
+        });
+        logOut.setOnClickListener((v) -> {
+            Intent i = new Intent(v.getContext(),Login.class);
             startActivity(i);
 
         });

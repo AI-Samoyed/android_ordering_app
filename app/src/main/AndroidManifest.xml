@@ -47,6 +47,7 @@
                 android:value="com.example.android.bakery.Register" />
         </activity>
         <activity android:name=".AppCompatPreferenceActivity" />
+        <activity android:name=".FoodDetails" />
     </application>
 
 </manifest>
