@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-55:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\75481e4f325e3678b01ca7833508255c\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\3701e9653f876850c07414763fb9f811\constraintlayout-2.0.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui:2.2.2] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\f13f36edfedf131d1bf4d75a19915bb3\navigation-ui-2.2.2\AndroidManifest.xml:17:1-24:12
@@ -89,20 +89,20 @@ MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\vince\
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\57b5ae7b4c1e8222c5e1793edd39aefa\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.1.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\3c410805b211f565ddf8d6b49f7dd616\jetified-protolite-well-known-types-17.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\47a9b793fb482438f4facbefe890c2a3\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-55:12
+INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:1-55:12
 		INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:2:11-69
@@ -131,7 +131,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:
 	android:name
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:7:5-51:19
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:7:5-53:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\3701e9653f876850c07414763fb9f811\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.2] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\3701e9653f876850c07414763fb9f811\constraintlayout-2.0.2\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\vince\.gradle\caches\transforms-2\files-2.1\a662a09f936ef9769e962d90fad0478e\material-1.2.1\AndroidManifest.xml:22:5-20
@@ -268,6 +268,10 @@ activity#com.example.android.bakery.FoodDetails
 ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:50:9-49
 	android:name
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:50:19-46
+activity#com.example.android.bakery.Cart
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:51:9-42
+	android:name
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:51:19-39
 uses-sdk
 INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml

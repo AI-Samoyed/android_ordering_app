@@ -63,6 +63,7 @@
         </activity>
         <activity android:name="com.example.android.bakery.AppCompatPreferenceActivity" />
         <activity android:name="com.example.android.bakery.FoodDetails" />
+        <activity android:name="com.example.android.bakery.Cart" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
