@@ -1463,7 +1463,9 @@ id filled
 id fixed
 id flip
 id food_image
+id food_image2
 id food_name
+id food_name2
 id forever
 id fragment_container_view_tag
 id fullname
@@ -1507,8 +1509,6 @@ id loginHere
 id mailimg
 id masked
 id media_actions
-id menu_image
-id menu_name
 id message
 id middle
 id mini
