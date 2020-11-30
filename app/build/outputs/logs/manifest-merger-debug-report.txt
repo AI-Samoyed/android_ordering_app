@@ -205,27 +205,27 @@ ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:
 	android:name
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:14:19-46
 activity#com.example.android.bakery.Home
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:15:9-22:20
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:15:9-23:20
 	android:parentActivityName
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:18:13-48
 	android:label
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:17:13-43
+	android:theme
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:19:13-69
 	android:name
 		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:16:13-33
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:19:9-21:64
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:20:9-22:64
 	android:value
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:21:13-61
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:22:13-61
 	android:name
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:20:13-59
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:21:13-59
 activity#com.example.android.bakery.Register
-ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:23:9-32:20
+ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:24:9-32:20
 	android:label
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:25:13-60
-	android:theme
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:26:13-56
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:26:13-60
 	android:name
-		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:24:13-37
+		ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:25:13-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\vince\Dropbox\ordering_app\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN

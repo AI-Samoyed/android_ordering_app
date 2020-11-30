@@ -15,15 +15,15 @@
         <activity
             android:name=".Home"
             android:label="Home Activity "
-            android:parentActivityName=".Login">
+            android:parentActivityName=".Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.example.android.bakery.Login" />
         </activity>
         <activity
             android:name=".Register"
-            android:label="@string/title_activity_register"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="@string/title_activity_register">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
