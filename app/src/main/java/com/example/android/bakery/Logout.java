@@ -28,7 +28,7 @@ public class Logout extends AppCompatActivity {
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
     String userID;
-    Button changeProfile, resetPass, logOut;
+    Button changeProfile, resetPass, logOut, btnOrder;
     FirebaseUser user;
 
     @Override
@@ -43,6 +43,7 @@ public class Logout extends AppCompatActivity {
         resetPass = findViewById(R.id.resetPass);
         changeProfile = findViewById(R.id.changeProfile);
         logOut = findViewById(R.id.btnLogout);
+        btnOrder = findViewById(R.id.btnOrder);
         userID = fAuth.getCurrentUser().getUid();
         user = fAuth.getCurrentUser() ;
 
@@ -57,7 +58,13 @@ public class Logout extends AppCompatActivity {
             }
         });
 
-
+        btnOrder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(),Home.class);
+                startActivity(i);
+            }
+        });
         resetPass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
